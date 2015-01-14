@@ -1,0 +1,187 @@
+{
+  "events": [
+    {
+      "act": "OPEN", 
+      "size": [
+        184, 
+        41
+      ], 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.007874011993408203
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1034hbash-3.2$ ", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "gcla", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[K", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[K", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "alcli --configFolder ~/work agae", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[K", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[K", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "enda 01/15/15 01/16/15", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 4.6960461139678955
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[0;33m\r\nThu Jan 15\u001b[0m\u001b[0;35m   9:00am  Meeting Ryan (Chartboost) w/ Michelle @ Joy's Place\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;36m  10:00am  classroom\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;32m  10:00am  Morning Lecture\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0m  10:00am  (No title)\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;32m  11:15am  Lab\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;35m  11:30am  Nicholas / David weekly meeting\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0m  11:30am  (No title)\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;32m   1:00pm  Lunch\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0m   1:00pm  (No title)\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;36m   1:15pm  Instructor Team Meeting\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;35m   1:15pm  Instructor Team Meeting\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;35m   1:15pm  Instructor Team Meeting\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;36m   2:00pm  classroom\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;32m   2:00pm  Afternoon Lecture\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0m   2:00pm  (No title)\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;32m   3:00pm  Lab\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0m   4:00pm  (No title)\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0m   5:00pm  (No title)\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;36m   5:15pm  Alyssa Hertig: Interview 1\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;36m   7:00pm  Interview Prep with Mentors\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;32m   7:00pm  Interview Prep with Mentors\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;35m   7:00pm  Interview Prep with Mentors\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;35m   7:00pm  Interview Prep with Mentors\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;35m   7:00pm  Interview Prep with Mentors\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0;35m   7:00pm  Interview Prep with Mentors\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0m   7:00pm  (No title)\r\n\u001b[0m\u001b[0;33m          \u001b[0m\u001b[0m   7:00pm  (No title)\r\n\u001b[0m\r\nbash-3.2$ ", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 6.794929504394531e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "bash-3.2$ ", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nbash-3.2$ ", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nbash-3.2$ ", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "neat!", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.003907918930053711
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "bash: neat!: command not found\r\nbash-3.2$ ", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0003", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nbash-3.2$ ", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "exit\r\n", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0019369125366210938
+    }, 
+    {
+      "act": "CLOSE", 
+      "term": "cf6bc8f48d9347da93a6cd1137c5e472"
+    }
+  ], 
+  "shell": "/bin/bash"
+}

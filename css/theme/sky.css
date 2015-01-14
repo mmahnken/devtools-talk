@@ -33,6 +33,10 @@ body {
   background: #134674;
   text-shadow: none; }
 
+.white-text {
+  color:white;
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
@@ -50,6 +54,26 @@ body {
   text-transform: uppercase;
   text-shadow: none; }
 
+.reveal h1.white-text,
+.reveal h2.white-text,
+.reveal h3.white-text,
+.reveal h4.white-text,
+.reveal h5.white-text,
+.reveal h6.white-text {
+  color: white;
+}
+
+.reveal h1 code,
+.reveal h2 code,
+.reveal h3 code,
+.reveal h4 code,
+.reveal h5 code,
+.reveal h6 code {
+  text-transform: none;
+}
+
+
+
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
@@ -57,7 +81,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #3b759e;
+  color: #EAB8ED;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;

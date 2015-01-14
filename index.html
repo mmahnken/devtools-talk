@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Dev Tools a-z</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="A tech talk about software development tools">
+		<meta name="author" content="Mary Mahnken">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -42,6 +44,424 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+				<section data-transition="zoom">
+						<h1>Dev Tools from A-Z</h1>
+						<p>or, someone bombards you with fresh, new ideas for computer fun, but promises to give you links for both the slides and how to procure the wizardry that will follow</p>
+						<br><br><h4>by Meggie Mahnken</h4>
+				</section>
+                <section data-transition="zoom">
+                    <ul>
+                        <li><span>confession: </span><span class="fragment">I used to hate tools.</span></li>
+                        <li class="fragment">Then I became a developer.</li>
+                        <li class="fragment">And I started to hate my browser.</li>
+                    </ul>
+                </section>
+                <section>
+                    <section>
+                        <h4>This Talk</h4>
+                        <ul>
+                            <li class="fragment">There will be lots of pictures and screenshots.</li>
+                            <li class="fragment">Sometimes I will simply discuss a term.</li>
+                            <li class="fragment">Goal: breadth, not depth</li>
+                            <li class="fragment">My personal goal: try all the tools!</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="iceberg.jpg"></img>
+                    </section>
+                </section>
+				<section data-background="#99857F" data-background-transition="slide" data-transition="linear" class="white-text">
+					<section>A is for AppleScript</section>
+					<section>
+						<ul>
+							<li>a scripting language for "inter-application communication" on macs</li>
+							<li class="fragment">good for modifying files en masse</li>
+							<li class="fragment">built-in editor on macs</li>
+                                <ul>
+                                    <li class="fragment">inside the built-in editor there are things called "application dictionaries"</li>
+                                    <li class="fragment">these aren't that useful, but the AppleScript docs on the company's websites are</li>
+                                </ul>
+							<li class="fragment">lots of fun scripts and "recipes" to sift through that people have already written</li>
+						</ul>
+					</section>
+					<section>
+						<h1>Hello, world!</h1>
+						<img src="appleScript2.gif"></img>
+					</section>
+				</section>
+				<section data-background="#FF6E8E" data-background-transition="slide" data-transition="linear" class="white-text">
+					<section>B is for Brackets</section>
+
+					<section>
+						<img src="brackets.gif"></img>
+					</section>
+                    <section>
+                        <ul>
+                            <li class="fragment">A text editor that's oriented towards design</li>
+                            <li class="fragment">Easily preview HTML/CSS</li>
+                            <li>closes tags automatically</li>
+                            <li class="fragment">closes tags <strong>automatically</strong></li>
+                            <li class="fragment">seriously, never forget a closing tag in html again</li>
+                            <li class="fragment">It's also a full text editor, so many more secrets lie within.</li>
+                            
+                            
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="brackets.gif"></img>
+                    </section>
+                    <section>
+                        <img src="iceberg.png"></img>
+                    </section>
+				</section>
+				<section data-background="#567550" data-background-transition="slide" data-transition="linear" class="white-text">
+					<section>	
+				        C is for Command Line Interfaces
+						<ul>
+						 <li class="fragment">clicking is hard</li>
+						 <li class="fragment">some of your favorite web applications have command line versions</li>
+							 <ul class="fragment">
+							 	<li>
+                                    <a href="https://github.com/insanum/gcalcli">Google Calender</a>, <a href="https://github.com/dreki/pivotal-slacker">Pivotal Tracker</a>, <a href="https://github.com/stephencelis/ghi">Github issues</a>, even <a href="https://github.com/kissrobber/facebook_client_terminal">Facebook</a>
+                                 </li>
+								<li>
+                                    some of them have multiple command line versions, written lovingly by many people who hate clicking and enjoy making tools for others to use
+                                </li>
+							</ul>
+						 <li class="fragment">you can write command line tools with <a href="https://www.dartlang.org/docs/tutorials/cmdline/">Dart</a> and <a href="https://github.com/kennethreitz/clint">clint</a>
+                            </li>
+						</ul>
+					</section>
+					<section>
+						<h1> But how?</h1>
+						 <ul>
+						 	<li>install (often via pip or gem, downloading source from github, etc.)</li>
+							<li>authenticate (read the manual, which is usually the README on github)</li>
+							<li> "Use your $EDITOR, not your browser."</li>
+						</ul>
+					</section>
+					<section>
+                        <img src="gcalcli.gif"></img>
+					</section>
+					<section id="fragments">
+						<h3 class="white-text">More <code>gcalcli</code> features</h2>
+						<ul>
+							<li class="fragment">alerts with cron jobs</li>
+							<li class="fragment">supports multiple google accounts</li>
+							<li class="fragment">views for day, 2-3 days, week, month</li>
+						</ul>
+					</section>
+				</section>
+
+				<section data-background="#88CC44" data-background-transition="slide" data-transition="linear" class="white-text">
+					<section>D is for Dash (for Documentation)</section>
+					<section>
+						<img src="dashIcon.png"></img>
+					</section>
+					<section>
+						<ul>
+							<li>a desktop app for documentation</li>
+							<li class="fragment">if you're sick of googling everything, or need docs without wifi</li>
+							<li class="fragment">free</li>
+							<li class="fragment">(or buy a license)</li>
+							<li class="fragment">Stack Overflow, language docs, bootstrap, web frameworks</li>
+                            <li class="fragment">Download your personal plethora of docsets.</li>
+						</ul>
+					</section>
+                    <section>
+                        <img src="dash.gif"></img>
+                    </section>
+				</section>
+				<section data-background="#CC6344" data-background-transition="slide" data-transition="linear" class="white-text">
+                    E is for <a href="https://evernote.com/premium/?gclid=CIGN5JmhksMCFceCfgodgR8AsA">Evernote</a>
+                    <ul>
+                        <li>searchable notes based on both title and content</li>
+                        <li>syncs happily with many phones phone</li>
+                        <li>web clipper, url generator to share notes</li>
+                        <li>taggable notes</li>
+                    </ul>
+				</section>
+				<section data-background="#FF6E8E" data-background-transition="slide" data-transition="linear" class="white-text">
+				    <section>
+                        G is for <a href="http://projects.tynsoe.org/en/geektool/download.php">Geektool</a>
+                        <ul>
+                            <li>lets you continually dump the output of any terminal command to your desktop</li>
+                            <li>example: date, disc usage, current machine processes, simple python scrips</li>
+                            <li>always have the output of <code>git branch</code> appear on top of everything else</li>
+                        </ul>
+                    </section>    
+                    <section>
+                        <img src="geektool.png"></img>
+                    </section>
+                    <section>
+                        <img src="geektool2.jpg"></img>
+                    </section>
+				</section>
+				<section data-background="#567550" data-background-transition="slide" data-transition="linear" class="white-text">
+					H is for HotKeys (Mac and Windows)
+                    <ul>
+                        <li class="fragment">what are these?</li>
+                        <li class="fragment">(n.) can mean keyboard shortcuts, but more often refers to Windows-specific single-letter shortcuts that apply in a variety of contexts and may or may not require the "alt" key to be pressed.</li>
+                    </ul>
+				</section>
+				<section data-background="#88CC44" data-background-transition="slide" data-transition="linear" class="white-text">
+					I is for <a href="https://ifttt.com/">IFTTT</a>
+                    <ul>
+                        <li class="fragment">great for spreadsheet nerds and people who are into the Quantified Self but don't want to wear a fitbit</li>
+                        <li class="fragment">let social media, your location, your phone/OS activity, and more interact</li>
+                        <li class="fragment">I use it to create a work log.</li>
+                        <li class="fragment">gotcha: sometimes channels break. Check on them every so often.</li>
+                    </ul>
+				</section>
+				<section data-background="#CC6344" data-background-transition="slide" data-transition="linear" class="white-text">
+                    <section>
+                        J is for ... just another interpreter, bpython!
+                        <ul>
+                            <li class="fragment">a syntax-highlighted python interpreter</li>
+                            <li class="fragment">tab completion for your (my) bizarre variable names</li>
+                            <li class="fragment">tab completion for libraries and METHODS</li>
+                                <ul class="fragment">
+                                    <li>never type and attempt to read the out of <code>dir(python_object)</code> again!</li>
+                                </ul>
+                        </ul>
+                    </section>    
+                    <section>
+                        <img src="bpython.gif"></img>
+                    </section>
+				</section>
+                <!-- Recipe 1 -->
+				<section data-transition="zoom">
+                    <section>
+					   <h1> Recipe 1</h1><br/>
+                        <span class="fragment">AppleScript + Evernote</span>
+                    </section>
+                    <section>
+                        <img src="applescript.png"></img>
+                    </section>
+                    <section>
+                        <img src="recipe1.gif"></img>
+                    </section>
+				</section>
+				<!-- end Recipe 1 -->
+				<section data-background="#99857F" data-background-transition="slide" data-transition="linear" class="white-text">
+					K is for Key Bindings
+                    <ul>
+                        <li class="fragment">What are these?</li>
+                        <li class="fragment">No, I'm asking you.</li>
+                        <li class="fragment">(n.) keyboard shortcuts that tend to be highly personalized; can differ greatly from user to user</li>
+                        <li class="fragment">can refer to keyboard shortcuts specific to text editors</li>
+                        <li class="fragment">can also refer to a sequence of keys</li>
+                    </ul>
+				</section>
+				<section data-background="#FF6E8E" data-background-transition="slide" data-transition="linear" class="white-text">
+				    <section>
+                        L is for Learn You an IDE
+                    </section>
+                    <section>
+                        <ul>
+                            <li class="fragment">IDE = Integrated Development Environment</li>
+                            <li>someone once told me: IDE's are what separates a programmer from a professional software engineer</li>
+                            <li class="fragment">Wait, really?</li>
+                            
+                        </ul>
+                    </section>
+                    <section>
+                        <h4>What makes an IDE worth using</h4>
+                        <ul>
+                            <li class="fragment">I'm asking you.</li>
+                            <li class="fragment">Upgrades bpython's syntactic autocompletion to an actual modal dialog</li>
+                                <ul>
+                                    <li class="fragment">for Python, this would be a dialog box that pops up telling you about an objects attributes, or a class's builtin methods, like list operations.</li>
+                                    <li class="fragment">These can be type filtered, like in bpython.</li>
+                                </ul>
+                            <li class="fragment">Code navigation</li>
+                                <ul>
+                                    <li class="fragment">What's this?</li>
+                                    <li class="fragment">Moving around your code confidently and swiftly can make a huge difference in the development process.</li>
+                                </ul>
+                            
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="pycharm.gif"></img>
+                    </section>
+				</section>
+				<section data-background="#567550" data-background-transition="slide" data-transition="linear" class="white-text">
+				    <section>
+                        M is for man pages and bro pages
+                        <ul>
+                            <li class="fragment">bro pages are shorter, better man pages</li>
+                            <li class="fragment">bro supposedly stands for browse</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="bro.gif"></img>
+                    </section>
+				</section>
+				<section data-background="#88CC44" data-background-transition="slide" data-transition="linear" class="white-text">
+                    <section>
+                        N is for newsletters 
+                        <span class="fragment">(I love <a href="http://www.pythonweekly.com/">Python Weekly)</a></span>
+                        <ul>
+                            <li class="fragment">make sure you actually read the newsletter that you choose</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="pythonweekly.gif"></img>
+                    </section>
+				</section>
+				<section data-background="#CC6344" data-background-transition="slide" data-transition="linear" class="white-text">
+					<section>
+					   O is for Only 25 minutes 
+                        <ul>
+                            <li class="fragment">using the Pomodoro Technique.</li>
+                            <li class="fragment">pomo is a CLI tool that's for most operating systems</li>
+                            <li class="fragment">Tomatoes desktop app</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="pomo.gif"></img>
+                    </section>
+                    <section>
+                        <img src="tomatoes.gif"></img>
+                    </section>
+				</section>
+				<section data-background="#99857F" data-background-transition="slide" data-transition="linear" class="white-text">
+					<section>
+                        P is for <a href="https://packagecontrol.io/packages/SublimeLinter">Package Manager (Sublime Text)</a><br/>
+                        <ul>
+                            <li class="fragment">What is a linter?</li>
+                            <li class="fragment">I'm asking you.</li>
+                            <li class="fragment">Sublime text has many!</li>
+                            <li class="fragment">CMD + SHIFT + P</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4>To install: CMD + SHIFT + P, search for Pep8</h4>
+                        <img src="packageManager.gif"></img>
+                    </section>
+                    <section>
+                        <h4>The linter</h4>
+                        <img src="linter.gif"></img>
+                    </section>
+				</section>
+				<section data-background="#FF6E8E" data-background-transition="slide" data-transition="linear" class="white-text">
+					Q is for Quicksilver and Alfred
+                    <ul>
+                        <li class="fragment">desktop apps for navigating your mac more efficiently</li>
+                        <li class="fragment">workflows, different outputs, like IFTTT for your computer</li>
+                        <li class="fragment">here's Alfred!</li>
+                    </ul>
+				</section>
+				<section data-markdown data-background="#567550" data-background-transition="slide" data-transition="linear" class="white-text">
+					R is for [Reveal.js](github.com/hakimel/reveal.js)
+				</section>
+				<section data-background="#88CC44" data-background-transition="slide" data-transition="linear" class="white-text">
+                    <section>
+                        S is for [showterm](showterm.io)
+                        <ul>
+                            <li class="fragment">showterm lets you record your terminal sessions</li>
+                            <li class="fragment">really easily</li>
+                            <li class="fragment">usage:</li>
+                            <li class="fragment"><code>showterm</code></li>
+                            <li class="fragment"><code>control + D</code></li>
+                            <li class="fragment">auto-uploads a video of your session and gives you share-able link</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <a href="http://showterm.io/a62b583166ae992a34998#fast" width="900" height="700">link to a showterm session</a>
+                    </section>
+				</section>
+                <!-- Recipe 2 -->
+				<section data-transition="zoom">
+                    <section>
+					   <h1>Recipe 2</h1><br/>
+                       <span class="fragment">Geektool + Python</span>
+                    </section>
+                    <section>
+                        <img src=""></img>
+                        <pre><code data-trim contenteditable>
+import requests
+from BeautifulSoup import BeautifulSoup
+import datetime
+
+
+extra = ''
+weekday = datetime.datetime.now().strftime("%A")
+if weekday == 'Monday':
+	weekday = 'Tuesday'
+	extra = 'For tomorrow,'
+
+blob = requests.get('http://www.cheeseboardcollective.coop/pizza')
+soup = BeautifulSoup(blob.text)
+
+section = soup.findAll(['h4', 'p'])
+
+def pizza():
+	for item in section:
+		if item.text[0:2] == weekday[0:2]:
+			phrase = "%s's Cheeseboard\n%s" % (item.text, section[section.index(item)+1].text)		
+			print phrase
+			return
+
+pizza()
+					</code></pre>
+                    </section>
+                    <section>
+                        <img src="cheeseboard.png"></img>
+                    </section>
+				</section>
+				<!-- end Recipe 2 -->
+				<section data-background="#CC6344" data-background-transition="slide" data-transition="linear" class="white-text">
+                    <section>
+                        T is for Tab Completion      
+                        <ul>
+                            <li class="fragment">certainly on the command line</li>
+                            <li class="fragment">definitely in your text editor</li>
+                            <li class="fragment">If you don't use tab completion, kittens might die.</li>
+                            <li class="fragment">also to easily search with Google Chrome</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="chrometab.png"></img>
+                    </section>
+                    <section>
+                        <img src="tabsearch.png"></img>
+                    </section>
+				</section>
+				<section data-background="#FF6E8E" data-background-transition="slide" data-transition="linear" class="white-text">
+					V is for Vim Customization Script
+                    <ul>
+                        <li class="fragment">What is this?</li>
+                        <li class="fragment">a file called <code>.vimrc</code> that contains additions, modifications, and extensions to the text editor vim</code></li>
+                        <li class="fragment"><a href="http://vi-improved.org/vimrc.html">example <code>.vimrc</code></a></li>
+                    </ul>
+				</section>
+				<section data-background="#CC6344" data-background-transition="slide" data-transition="linear" class="white-text">
+					Y is for Your Screenshots as GIFs<br/>
+                    <ul>
+                        <li class="fragment">all of my video screenshots were made into gifs by RecordIt</li>
+                        <li class="fragment">live demo (!)</li>
+                    </ul>
+				</section>
+				<section data-background="#9E9B98" data-background-transition="slide" data-transition="linear">
+				   <section>
+                        Z is for zsh</br>
+                       <span class="fragment">A bit of shell history</span>
+                   </section>
+                    <section>
+                        <h4>History of shell</h4>
+                        <img src="shellhistory.gif"></img>
+                    </section>
+				</section>
+                <section data-transition="zoom">
+                    <span class="fragment">Thanks to most of the developers I know for telling me about their setups and tools.</span></br></br>
+                    <span class="fragment">Thanks to Christine Yen who gave <a href="http://vimeo.com/95323029">a talk</a> that inspired this one.</span></br></br>
+                    <span class="fragment">Thank you.</span></br></br>
+                </section>
+
+
+				<!-- The default slides -->
 				<section>
 					<h1>Reveal.js</h1>
 					<h3>HTML Presentations Made Easy</h3>
@@ -343,7 +763,7 @@ function linkify( selector ) {
 					<h2>Stellar Links</h2>
 					<ul>
 						<li><a href="http://slid.es">Try the online editor</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
+						<li><a href="http://lab.hakim.se/reveal-js/#/">Source code on GitHub</a></li>
 						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
 					</ul>
 				</section>
